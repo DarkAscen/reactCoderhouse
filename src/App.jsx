@@ -13,7 +13,7 @@ function App() {
  return (
     <div>
       <CartProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/reactCoderhouse">
           <NavBar />  
           <Routes>
             <Route path="/" element={<ItemListContainer />} />
