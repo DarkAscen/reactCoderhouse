@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Item = ({producto}) => {
     return (
             <div className="item-class">
-                <img src={`${import.meta.env.BASE_URL}/images/${producto.imagen}`} alt={producto.nombre} />
+                <img src={`${import.meta.env.BASE_URL}/public/images/${producto.imagen}`} alt={producto.nombre} />
                 <div className="item-data">
                     <h2 className="item-nombre">{producto.nombre}</h2>
                     <h4>${producto.valor} ARS</h4>
