@@ -5,7 +5,8 @@
 
 #navigBar {
   padding: 10px 5px 10px 20px;
-
+  position: sticky;
+  top: 0;
 }
 
 .navbar-brand {
@@ -123,3 +124,11 @@ footer p, footer h2 {
   margin: 10px;
 }
 
+.inputCart {
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.imagenCart {
+  width: 300px;
+}

@@ -61,8 +61,8 @@ const Cart = () => {
             {carrito.length > 0 ?
                 carrito.map((item) => (
                     <div key={item.id}>
-                        <img src={`${import.meta.env.BASE_URL}/public/images/${producto.imagen}`} alt={item.name} />
-                        <h2>{item.name}</h2>
+                        <img src={`${import.meta.env.BASE_URL}/images/${item.imagen}`} alt={item.nombre} className="imagenCart"/>
+                        <h2 className="imagenCart" >{item.nombre}</h2>
                         <p>Cantidad: {item.cantidad}</p>
                         <p>${item.valor * item.cantidad} (${item.valor} c/u)</p>
                         <button onClick={()=> quitarDelCarrito(item.id)} className="quitarDelCarrito">Quitar del carrito</button>
@@ -75,15 +75,15 @@ const Cart = () => {
         <form>
             <div>
                 <label htmlFor="nombre">Nombre:</label>
-                <input type="text" value={comprador.name} name="name" onChange={handleChange} />
+                <input type="text" value={comprador.name} name="name" onChange={handleChange} className="inputCart" />
             </div> 
             <div>
                 <label htmlFor="phone">Celular:</label>
-                <input type="number" value={comprador.phone} name="phone" onChange={handleChange} />
+                <input type="number" value={comprador.phone} name="phone" onChange={handleChange} className="inputCart" />
             </div> 
             <div>
                 <label htmlFor="email">Mail:</label>
-                <input type="email" value={comprador.email} name="email" onChange={handleChange} />
+                <input type="email" value={comprador.email} name="email" onChange={handleChange} className="inputCart" />
             </div> 
         </form>
         <h2>TOTAL CARRITO: ${precioTotal()}</h2>

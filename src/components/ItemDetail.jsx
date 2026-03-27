@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react';
 import CartContext from '../context/CartContext';
 import ItemCount from './ItemCount.jsx'
+import Item from './Item.jsx';
 
 const ItemDetail = ({item}) => {
 
@@ -18,7 +19,7 @@ const ItemDetail = ({item}) => {
 
     return (
         <div className="item-detail">
-            <img src={item.imagen} alt={item.nombre} />
+            <img src={`${import.meta.env.BASE_URL}/images/${item.imagen}`} alt={item.nombre} />
             <h2>{item.nombre}</h2>
             <h4>${item.valor} ARS</h4>
             <p>{item.descripcion}</p>

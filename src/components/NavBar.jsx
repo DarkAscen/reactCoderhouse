@@ -1,7 +1,8 @@
 import React from "react";
 import CartWidget from "./CartWidget";
 import { Navbar, Nav, Form, FormControl, Button } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 const NavBar = () => {
     return (
@@ -16,7 +17,7 @@ const NavBar = () => {
                     <Nav.Link to="/productos/escritorio" as={NavLink}>Escritorio</Nav.Link>
                 </Nav>
                 <Form className="d-flex">
-                    <FormControl id="barraDeBusqueda" type="search" placeholder="Buscar" className="me-2" aria-label="Search" />
+                    <FormControl id="barraDeBusqueda" type="search" placeholder="Buscar" className="me-2" aria-label="Search" value={search} onChange={(e) => setSearch(e.target.value)} />
                     <Button variant="outline-success">🔎</Button>
                 </Form>
                 <Nav.Link to="/cart" as={NavLink}><CartWidget /></Nav.Link>
