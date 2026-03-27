@@ -61,7 +61,7 @@ const Cart = () => {
             {carrito.length > 0 ?
                 carrito.map((item) => (
                     <div key={item.id}>
-                        <img src={item.imagen} alt={item.name} />
+                        <img src={`${import.meta.env.BASE_URL}/public/images/${producto.imagen}`} alt={item.name} />
                         <h2>{item.name}</h2>
                         <p>Cantidad: {item.cantidad}</p>
                         <p>${item.valor * item.cantidad} (${item.valor} c/u)</p>
