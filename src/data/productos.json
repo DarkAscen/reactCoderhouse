@@ -4,7 +4,7 @@
         "id": 1, 
         "valor": 109250, 
         "descripcion": "Auriculares inalámbricos HyperX Cloud Flight con micrófono, color negro.", 
-        "imagen": "../images/auriculares.jpg",
+        "imagen": "./images/auriculares.jpg",
         "categoria": "perifericos",
         "stock": 15
     },
@@ -13,7 +13,7 @@
         "id": 2, 
         "valor": 35220, 
         "descripcion": "Teclado Cougar Core RGB completo semi mecánico color negro.", 
-        "imagen": "../images/teclado.jpg",
+        "imagen": "./images/teclado.jpg",
         "categoria": "perifericos",
         "stock": 15
     },
@@ -22,7 +22,7 @@
         "id": 3, 
         "valor": 36000, 
         "descripcion": "Mouse Redragon Storm Elite M988 RGB negro de sensor óptico para diestros con una frecuencia de respuesta de 1000hz. DPI desde 100 a 16000.", 
-        "imagen": "../images/mouse.jpg",
+        "imagen": "./images/mouse.jpg",
         "categoria": "perifericos",
         "stock": 15
     },
@@ -31,7 +31,7 @@
         "id": 4, 
         "valor": 138900, 
         "descripcion": "Procesador Intel Core i5 10400F con 6 núcleos, una frecuencia de 2900mhz y una frecuencia turbo de 4300 mhz.", 
-        "imagen": "../images/procesador.jpg",
+        "imagen": "./images/procesador.jpg",
         "categoria": "componentes",
         "stock": 15
     },
@@ -40,7 +40,7 @@
         "id": 5, 
         "valor": 28000, 
         "descripcion": "Memoria RAM Elite Red CL22 DDR4 8gb  con una velocidad de 3200 mhz.", 
-        "imagen": "../images/memoriaram.jpg",
+        "imagen": "./images/memoriaram.jpg",
         "categoria": "componentes",
         "stock": 15
     },
@@ -49,7 +49,7 @@
         "id": 6, 
         "valor": 530000, 
         "descripcion": "Placa de Video ASUS Geforce RTX 4060 8gb GDDR6 ROG STRIX OC. Consumo: 300w.", 
-        "imagen": "../images/placadevideo.jpg",
+        "imagen": "./images/placadevideo.jpg",
         "categoria": "componentes",
         "stock": 15
     },
@@ -58,7 +58,7 @@
         "id": 7, 
         "valor": 37800, 
         "descripcion": "Disco sólido SATA Team GX2 de 512 gb con una velocidad de lectura de 530 mb/s y escritura de 430 mb/s.", 
-        "imagen": "../images/discosolido.jpg",
+        "imagen": "./images/discosolido.jpg",
         "categoria": "componentes",
         "stock": 15
     },
@@ -67,7 +67,7 @@
         "id": 8, 
         "valor": 131800, 
         "descripcion": "Mother Gigabyte H610M H DDR4 de Intel con socket 1700 Alder Lake-S y un consumo de 15w.", 
-        "imagen": "../images/mother.jpg",
+        "imagen": "./images/mother.jpg",
         "categoria": "componentes",
         "stock": 15
     },
@@ -76,7 +76,7 @@
         "id": 9, 
         "valor": 102350, 
         "descripcion": "Fuente de alimentación Gigabyte 80 Plus Bronze P650B de 650W de formato ATX.", 
-        "imagen": "../images/fuente.jpg",
+        "imagen": "./images/fuente.jpg",
         "categoria": "componentes",
         "stock": 15
     },
@@ -85,7 +85,7 @@
         "id": 10, 
         "valor": 74500, 
         "descripcion": "Gabiente Antec NX292 MESH RGB para computadora con vidrio templado. 20.6cm x 45 cm x 40.6 cm", 
-        "imagen": "../images/gabinete.jpg",
+        "imagen": "./images/gabinete.jpg",
         "categoria": "componentes",
         "stock": 15
     },
@@ -94,7 +94,7 @@
         "id": 11, 
         "valor": 413400, 
         "descripcion": "Silla Gamer AK-Racing OCTANE Red con un soporte de máximo 150Kg.", 
-        "imagen": "../images/silla.jpg",
+        "imagen": "./images/silla.jpg",
         "categoria": "escritorio",
         "stock": 15
     },
@@ -103,7 +103,7 @@
         "id": 12, 
         "valor": 335000, 
         "descripcion": "Monitor gamer G2790VX de 27 pulgadas con 144Hz de frecuencia y 1ms de respuesta. 55,8 cm x 42.3 cm x 19.9cm.", 
-        "imagen": "../images/monitor.jpg",
+        "imagen": "./images/monitor.jpg",
         "categoria": "componentes",
         "stock": 15
     },
@@ -112,7 +112,7 @@
         "id": 13, 
         "valor": 168800, 
         "descripcion": "Escritorio gamer GTC Gta-002 de madera negro. 120cm x 73cm x 60cm.", 
-        "imagen": "../images/escritorio.webp",
+        "imagen": "./images/escritorio.webp",
         "categoria": "escritorio",
         "stock": 15
     }

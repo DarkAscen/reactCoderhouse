@@ -7,7 +7,7 @@ const CartWidget = () => {
 
     return (
         <div className="cart-widget">
-            <img src="../images/carritodecompra.png" id="imagencarrito"/>
+            <img src="./images/carritodecompra.png" id="imagencarrito"/>
             <span className="badge">{cartItemCount()}</span>
         </div>
     );
